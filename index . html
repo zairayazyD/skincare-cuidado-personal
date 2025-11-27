@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinCare - Cuidado Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>SkinCare & Beauty</h1>
+        <p>Cuidado de la piel • Maquillaje • Bienestar</p>
+    </header>
+
+    <!-- IMAGEN PRINCIPAL -->
+    <section class="banner">
+        <img src="https://images.unsplash.com/photo-1535632780835-04f72f1730c8" alt="Skincare">
+    </section>
+
+    <!-- PRESENTACIÓN -->
+    <section class="intro">
+        <h2>Cuida tu piel como se merece</h2>
+        <p>
+            Descubre rutinas, productos y consejos para mantener una piel suave,
+            saludable y radiante. Estamos aquí para ayudarte con todo lo relacionado a belleza y cuidado personal.
+        </p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="servicios">
+        <h2>Servicios</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Rutinas Personalizadas</h3>
+                <p>Te recomendamos productos según tu tipo de piel.</p>
+            </div>
+
+            <div class="card">
+                <h3>Maquillaje Profesional</h3>
+                <p>Servicios para eventos especiales o sesiones fotográficas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Consultas de Piel</h3>
+                <p>Análisis rápido para saber qué productos te convienen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p><strong>WhatsApp:</strong> 55 0000 0000</p>
+        <p><strong>Correo:</strong> skincare@example.com</p>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2025 SkinCare & Beauty - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
+body {
+    background-color: #1e90ff; /* Azul */
+}
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eb0b7b;
+    color: #c50e0e;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7d6e6;
+    color: #6b2e4e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.3rem;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+/* BANNER */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* INTRO */
+.intro {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #a34b7a;
+    font-size: 1.8rem;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* SERVICIOS */
+.servicios {
+    padding: 40px 20px;
+    background-color: #ffeef6;
+}
+
+.servicios h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #a34b7a;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(240, 4, 4);
+    width: 270px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    color: #170bc5;
+}
+
+/* CONTACTO */
+.contacto {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    color: #a34b7a;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f7d6e6;
+    padding: 15px;
+    text-align: center;
+    color: #6b2e4e;
+}
